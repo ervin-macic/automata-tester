@@ -1,0 +1,8 @@
+digraph "visualizations/moc_ps1_p3_2.jpg" {
+	graph [rankdir=LR]
+	node [fontsize=20]
+	edge [fontsize="20pt"]
+	"" [label="" shape=plaintext]
+	q1 [label=q1 shape=doublecircle]
+	"" -> q1 [label=""]
+}
