@@ -6,9 +6,9 @@ from automata_utility import load_automata_from_json
 from constants import test_strings
 
 if __name__ == "__main__":
-    file_name = "moc_ps1_p5_1.jpg"
-    automata_type = "nfa"
-    automata_img_to_json(file_name, "nfa")
+    file_name = "moc_ps1_p1_4.jpg"
+    automata_type = "dfa"
+    automata_img_to_json(file_name, automata_type)
 
     # Allow time for the json file update
     time.sleep(0.1)
