@@ -1,9 +1,9 @@
 ## About
-A (rushed) automata tester for the *Models of Computation* course at Oxford, used for verifying my problem sheet answers.
+A (rushed) automata verifier
 
 Uses **Gemini 2.5 Fast** to extract a DFA/NFA from a given image into JSON. Once represented properly, the `automathon` library is used to test the given automaton on test strings. 
 
-Use case is for testing automata with < 20 states on given strings.
+Realistic use case is for testing automata with < 20 states on given strings.
 
 ## Example
 <img alt="An image of a DFA" src="dfa_examples/moc_ps1_p1_4.jpg" width="400" style="display: block; margin: 0 auto;">
