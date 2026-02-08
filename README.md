@@ -1,5 +1,5 @@
 ## About
-A (rushed) automata verifier
+An automata verifier
 
 Uses **Gemini 2.5 Fast** to extract a DFA/NFA from a given image into JSON. Once represented properly, the `automathon` library is used to test the given automaton on test strings. 
 
